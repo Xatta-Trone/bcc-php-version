@@ -1,0 +1,17 @@
+.bootstrap-tagsinput .tag {
+    color: #fff;
+    background: #202226;
+    padding: 2px 5px;
+    border-radius:  5px;
+    /* font-size:  18px; */
+}
+
+.bootstrap-tagsinput {
+    width:  100%;
+}
+
+.fr-wrapper.show-placeholder {
+    height:  200px;
+}
+
+.dropdown-menu.xt-show{background-color: #333;}

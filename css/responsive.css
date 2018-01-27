@@ -1,0 +1,333 @@
+
+/* Medium Layout: 1280px.
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+    
+}
+Tablet Layout: 768px.
+@media only screen and (min-width: 768px) and (max-width: 991px) {  
+	
+}
+Mobile Layout: 320px.
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+Wide Mobile Layout: 480px.
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+} */
+
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+	
+    button.navbar-toggler.navbar-toggler-right {
+    border: 2px solid;
+    border-radius:  0;
+    /* padding: 5px 10px; */
+}
+
+.navbar-collapse {
+    padding-top:  0px;
+    text-align:  center;
+}
+
+.navbar-collapse .nav-item {
+    margin-bottom:  2px;
+    /* font-size:  20px; */
+}
+
+.dropdown-menu {
+    text-align:  center;
+}
+
+.dropdown-menu .dropdown-item {
+    margin-bottom:  2px;
+}
+.hero-slider-area .owl-dots div, .programe-slides .owl-dots div {
+    height: 10px;
+    width: 10px;}
+    .single-slide-item p{visibility: hidden;}
+    .next-big-event h1 {
+    font-size:  20px;
+    line-height: 30px;
+    font-weight:  600;
+    margin-bottom:  10px;
+}
+
+.next-big-event {
+    text-align:  center;
+}
+.counter-box .number {
+    font-size:  20px;
+    line-height: 10px;
+}
+
+.counter-box span {
+    font-size:  15px;
+    /* line-height: 19px; */
+}
+
+.next-big-event h1 {
+    margin-bottom:  20px;
+}
+
+.next-big-event {
+    text-align:  center;
+}
+h1.header-text {
+    transform: rotate(0deg);
+    margin-top: 20px;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align:  center;
+    display:  block;
+}
+.news-meta p {
+    width:  70%;
+}
+
+.news-meta h2, .news-meta a {
+    font-size:  20px;
+}
+
+.membership-area {
+    text-align:  center;
+}
+.membership-area h2 {
+    font-size: 22px;
+}
+.membership-area .bcc-btn {
+    margin-top:  15px;
+}
+.minifooter {
+    text-align:  center;
+}
+.page-meta span{visibility: hidden;}
+.single-event-summery-content {
+    margin-top: 15px;
+}
+.user-posts h1 {
+    font-size:  25px;
+}
+.blog-header h2 {
+    font-size:  25px;
+}
+
+.blog-meta-content {
+    padding:  0;
+}
+
+.blog-detail {
+    padding:  0;
+}
+ul.pagination a {
+    padding: 5px 10px;
+    font-size: 15px;}
+
+    .profile-details-area h1 {
+    font-size: 30px;
+}
+
+.profile-details-area {
+    font-size: 14px;
+}
+.img-continer {
+    height: 260px;
+    margin-top: 40px;
+}
+.single-programe-wrapper{padding-top: 0;}
+.next-big-event.section-padding{padding: 25px 0}
+.mh250{
+    min-height: auto;
+}
+
+
+	
+ }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) { 
+
+    button.navbar-toggler.navbar-toggler-right {
+    border: 2px solid;
+    border-radius:  0;
+    /* padding: 5px 10px; */
+}
+/* .img-continer {
+    height: 600px;
+    margin-top:  40px;
+} */
+
+.navbar-collapse {
+    padding-top:  20px;
+    text-align:  center;
+}
+
+.navbar-collapse .nav-item {
+    margin-bottom:  2px;
+    /* font-size:  20px; */
+}
+
+.dropdown-menu {
+    text-align:  center;
+}
+
+.dropdown-menu .dropdown-item {
+    margin-bottom:  2px;
+}
+
+	.next-big-event h1 {
+    font-size:  30px;
+    /* text-align:  center; */
+}
+
+.next-big-event {
+    text-align:  center;
+}
+h1.header-text {
+    transform: rotate(0deg);
+    margin-top: 20px;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align:  center;
+    display:  block;
+}
+.news-meta p {
+    width:  70%;
+}
+
+.news-meta h2, .news-meta a {
+    font-size:  20px;
+}
+
+.membership-area {
+    text-align:  center;
+}
+
+.membership-area .bcc-btn {
+    margin-top:  20px;
+}
+.minifooter, .minifooter .text-right {
+    text-align: center;
+}
+.page-meta span {
+    display:  none;
+}
+.single-event-summery-content {
+    margin-top: 15px;
+}
+.blog-meta-content {
+    padding: 0;
+}
+
+.blog-header h2 {
+    font-size: 30px;
+}
+
+.blog-detail {
+    padding:  0;
+}
+
+.member-name h3 {
+    font-size:  25px;
+}
+
+.member-meta p {
+    font-size: 18px;
+}
+.member-meta{padding-bottom: 10px;}
+.user-posts h1 {
+    font-size: 30px;
+}
+.profile-details-area{font-size: 18px;}
+
+
+
+
+
+	
+ }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.nav-item .nav-link{font-size: 12px;}
+	.next-big-event h1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.next-big-event {
+    font-size:  30px;
+}
+
+.counter-box .number {
+    font-size:  30px;
+    line-height:  20px;
+}
+
+.counter-box span {
+    font-size:  18px;
+    line-height: 14px;
+}
+
+.clock-wrapper {
+    padding: 7px 0;
+}
+
+h1.header-text {
+    font-size:  25px;
+}
+
+.news-meta p {
+    width:  70%;
+}
+.page-meta span {
+    font-size:  12px;
+    margin-left: 15px;
+}
+.member-name h3{font-size: 25px;}
+.blog-header h2 {
+    font-size:  25px;
+}
+
+.blog-meta-content {
+    padding:  0;
+    /* font-size:  25px; */
+}
+
+.blog-detail {
+    padding:  0;
+    /* font-size:  25px; */
+}
+
+.blog-detail h1, .blog-detail h2, .blog-detail h3 {
+    font-size:  25px;
+}
+
+.blog-sidebar li {
+    padding: 15px;
+}
+
+
+
+
+
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) { 
+	.next-big-event h1,.counter-box .number {font-size:  35px;}
+	.news-meta p {width: 70%;}
+	.page-meta span {font-size:  14px;margin-left:  15px;}
+
+
+
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
