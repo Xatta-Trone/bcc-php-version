@@ -19,6 +19,7 @@
 <?php $slider = new Slider(); ?>
 <?php $submission = new Submission(); ?>
 <?php $utilities = new Utilities(); ?>
+<?php $moderator = new Moderator(); ?>
 <?php $activity->insertSession(session_id(),basename($_SERVER['PHP_SELF'],'.php')); ?>
 <?php $allUtildata = $utilities->getAllData(); $utildata = $allUtildata->fetch_assoc(); ?>
 <?php if ($_SERVER['REQUEST_METHOD']=='POST' && isset($_POST['sendMessage'])) {$sendMessage = $contact->InsertMessage($_POST);} ?>
@@ -116,6 +117,9 @@
 					</li>
 					<li class="nav-item">
 						<a href="alumni.php" class="nav-link <?php if($currentpage=='alumni'){echo 'active';} ?>">Alumni</a>
+					</li>
+					<li class="nav-item">
+						<a href="moderator.php" class="nav-link <?php if($currentpage=='moderator'){echo 'active';} ?>">Moderator</a>
 					</li>
 					<li class="nav-item">
 						<a href="team.php" class="nav-link <?php if($currentpage=='team'){echo 'active';} ?>">Team</a>

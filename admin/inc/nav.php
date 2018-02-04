@@ -113,6 +113,12 @@
             <li>
               <a href="alumnilist.php">Alumni list</a>
             </li>
+            <li>
+              <a href="modadd.php"> Add Moderator</a>
+            </li>
+            <li>
+              <a href="modlist.php">Moderator list</a>
+            </li>
           </ul>
         </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Post">

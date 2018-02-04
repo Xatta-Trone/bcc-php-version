@@ -306,6 +306,8 @@ class Utilities{
 			$title = 'women wing';
 		}elseif ($title == 'alumni') {
 			$title = 'alumni';
+		}elseif ($title == 'moderator') {
+			$title = 'moderator';
 		}else{
 			$title == '';
 		}
