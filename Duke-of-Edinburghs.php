@@ -32,7 +32,6 @@
 					<div class="single-event-summery-content">
 <?php $getProgrammeDescription = $programme->getProgrammeById(4) ?>
 <?php $getProgrammeDescription = $getProgrammeDescription->fetch_assoc(); ?>
-						<p><?= $getProgrammeDescription['programmedescription']; ?></p>
 						<h2>Next session starts on <span>5th Jan 2018</span></h2>
 						<span>
 							<button type="button" class="btn bcc-btn" data-toggle="modal" data-target="#exampleModal">Register</button>
@@ -85,6 +84,10 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12">
+				
+				<div class="fr-view">
+					<?php echo htmlspecialchars_decode($getProgrammeDescription['programmedescription']); ?>
+				</div>
 				<div class="user-posts text-center section-padding">
 					<h1>Recent Events on BUET Duke of Edinburgh's</h1>
 					<div class="row no-gutters h-100">

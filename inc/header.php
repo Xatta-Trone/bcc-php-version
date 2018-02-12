@@ -64,6 +64,9 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+  	<link rel="stylesheet" href="admin/css/codemirror.min.css">
+  	<link rel="stylesheet" href="admin/css/froala_editor.pkgd.min.css">
+  	<link rel="stylesheet" href="admin/css/froala_style.min.css">
 	<link rel="stylesheet" type="text/css" href="css/style.min.css">
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
 	<?= $utildata['header_text']; ?>

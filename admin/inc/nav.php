@@ -53,6 +53,20 @@
             </li>
           </ul>
         </li>
+        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Image">
+          <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#xtimg" data-parent="#exampleAccordion">
+            <i class="fa fa-fw fa-image"></i>
+            <span class="nav-link-text">Image</span>
+          </a>
+          <ul class="sidenav-second-level collapse" id="xtimg">
+            <li>
+              <a href="imglist.php">Image List</a>
+            </li>
+            <li>
+              <a href="imgupload.php">Image Upload</a>
+            </li>
+          </ul>
+        </li>
         <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Programme">
           <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#Programme" data-parent="#exampleAccordion">
             <i class="fa fa-fw fa-product-hunt"></i>

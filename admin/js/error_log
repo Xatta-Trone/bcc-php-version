@@ -1,0 +1,19 @@
+[09-Jan-2018 16:59:53 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/post.php on line 4
+[09-Jan-2018 16:59:53 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 332
+[09-Jan-2018 18:34:27 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/buetcare/public_html/classes/Post.php on line 141
+[09-Jan-2018 18:34:34 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/buetcare/public_html/classes/Post.php on line 141
+[10-Jan-2018 08:39:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/buetcare/public_html/classes/Post.php on line 141
+[11-Jan-2018 01:44:28 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335
+[11-Jan-2018 01:44:34 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/post.php on line 4
+[11-Jan-2018 01:44:34 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335
+[11-Jan-2018 02:28:35 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[11-Jan-2018 02:38:43 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[11-Jan-2018 02:45:13 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335
+[11-Jan-2018 04:27:40 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[12-Jan-2018 10:43:40 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335
+[12-Jan-2018 10:46:40 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335
+[13-Jan-2018 15:49:56 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[13-Jan-2018 18:15:16 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[14-Jan-2018 13:04:07 UTC] PHP Notice:  Undefined variable: id in /home/buetcare/public_html/profile.php on line 13
+[04-Feb-2018 09:16:50 UTC] PHP Parse error:  syntax error, unexpected '?>' in /home/buetcare/public_html/moderator.php on line 28
+[11-Feb-2018 09:40:52 UTC] PHP Fatal error:  Call to a member function fetch_assoc() on boolean in /home/buetcare/public_html/classes/Post.php on line 335

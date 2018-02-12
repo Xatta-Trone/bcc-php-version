@@ -324,6 +324,78 @@ class Utilities{
 
 	}
 
+	public function imgUpload($file){
+		//$password = self::randomPassword();
+		//var_dump($data);
+		//var_dump($file);
+		//var_dump($password);
+		//exit();
+		//$md_password = md5($password);
+
+		
+		/*$membername      = $this->fm->validation($data['membername']);
+		$dept            = $this->fm->validation($data['dept']);
+		$area            = $this->fm->validation($data['area']);
+		$position        = $this->fm->validation($data['position']);
+		$memberemail     = $this->fm->validation($data['memberemail']);
+		$memberfb        = $this->fm->validation($data['memberfb']);
+		$memberlinkedin  = $this->fm->validation($data['memberlinkedin']);
+
+		$membername      = mysqli_real_escape_string($this->db->link,$membername);
+		$dept            = mysqli_real_escape_string($this->db->link,$dept);
+		$area            = mysqli_real_escape_string($this->db->link,$area);
+		$position        = mysqli_real_escape_string($this->db->link,$position);
+		$memberemail     = mysqli_real_escape_string($this->db->link,$memberemail);
+		$memberfb        = mysqli_real_escape_string($this->db->link,$memberfb);
+		$memberlinkedin  = mysqli_real_escape_string($this->db->link,$memberlinkedin);*/
+
+
+		$permittedImg = array('jpg','jpeg');
+
+		$imgName  = $file['image']['name'];
+		$imgSize  = $file['image']['size'];
+		$imgTemp  = $file['image']['tmp_name'];
+		$imgError = $file['image']['error'];
+
+		$currentPath = realpath(dirname(__FILE__));
+
+		$imgExtension = explode('.',$imgName);
+		$imgExtension = strtolower(end($imgExtension));
+		$uniqueName   = substr(md5(time()), 0,10).'.'.$imgExtension;
+		$uploadPath   = $currentPath."/../file/img/".$uniqueName;
+
+		if ($imgSize>2097152) {
+			// 1048576 bit = 1MB
+			$msg = '<div class="alert alert-danger"><strong>Error! </strong>Max img size is 2MB</div>';
+			return $msg;
+		}elseif (in_array($imgExtension,$permittedImg)==false) {
+			$msg = '<div class="alert alert-danger"><strong>Error! </strong>Image type is not allowed. Only';
+			$msg .= implode(' , ', $permittedImg);
+			$msg .= ' types are allowed</div>';
+			return $msg;
+		}else{
+			if ($imgError=='0') {
+				
+				$imgupload  = move_uploaded_file($imgTemp,$uploadPath);
+
+
+				if ($imgupload) {
+
+					$msg = '<div class="alert alert-success"><strong>Success!</strong> Img Added Succesfully</div>';
+					return $msg;
+				}else{
+					$msg = '<div class="alert alert-danger"><strong>Error!</strong> Img Not added</div>';
+					return $msg;
+				}
+			}else{
+				$msg = '<div class="alert alert-danger"><strong>Error!</strong> There Was a error with the file';
+				$msg .= $imgError;
+				$msg .= '</div>';
+				return $msg;
+			}	
+		}
+	}
+
 
 
 

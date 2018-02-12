@@ -10,7 +10,7 @@
 class Programme{
 	
 	private $db;
-	private $fm;
+	public $fm;
 	
 	function __construct(){
 		$this->db = new Database();

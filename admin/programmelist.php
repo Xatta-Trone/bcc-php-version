@@ -12,6 +12,7 @@
 		<a href="#">Dashboard</a>
 	</li>
 	<li class="breadcrumb-item active">Programme List</li>
+
 </ol>
 <?php if (isset($deleteProgrammeById)) {
 	echo $deleteProgrammeById;
@@ -49,7 +50,7 @@
                 <tr>
                   <td><?php echo $i; $i++; ?></td>
                   <td><?php echo $value['programmename']; ?></td>
-                  <td><?php echo $value['programmedescription']; ?></td>
+                  <td><?php echo htmlspecialchars_decode($Programme->fm->textShorten($value['programmedescription'],100)); ?></td>
                   <td>
                   	<a href="programmeedit.php?id=<?php echo $value['id'];?>" class="btn btn-xs btn-primary">Edit</a> 
                   	|| 

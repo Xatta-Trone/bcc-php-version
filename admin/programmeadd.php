@@ -21,6 +21,8 @@
 	echo $ProgrammeInsert;
 } ?>
 <hr>
+	<span>** Insert img from  <a target="_blank" href="imglist.php">here</a></span>
+<hr>
 
 <div class="container">
 	<div class="row">
@@ -35,7 +37,8 @@
 				<div class="form-group row">
 				  <label class="col-2 col-form-label">Programme Description</label>
 				  <div class="col-10">
-				    <input class="form-control" type="text" name="programmedescription">
+				  	<textarea id="post" name="programmedescription"></textarea><!-- 
+				  					    <input class="form-control" type="text" name="programmedescription"> -->
 				  </div>
 				</div>
 				<div class="form-group row">
@@ -54,3 +57,4 @@
 
 
 <?php include 'inc/footer.php'; ?>
+

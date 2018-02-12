@@ -14,3 +14,7 @@ define('DB_PASS', 'X@ttaTrone');
 define('DB_NAME', 'shoptors_xt');
 
 ^ZIR8}jik6zu
+
+
+rgb(59, 68, 78);
+rgb(13, 206, 145);

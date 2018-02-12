@@ -38,6 +38,7 @@
     <script src="js/codemirror.min.js"></script>
     <script src="js/image.min.js"></script>
     <script src="js/xml.min.js"></script>
+    <script src="js/tinymce/tinymce.min.js"></script>
     <!-- Core plugin JavaScript-->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <!-- Page level plugin JavaScript-->
@@ -50,11 +51,11 @@
     <!-- Custom scripts for this page-->
     <script src="js/sb-admin-datatables.min.js"></script>
     <script src="js/sb-admin-charts.min.js"></script>
-    <script> $(function() { $('#post').froalaEditor(
-
-
-
-  ) }); </script>
+    <script src="js/clipboard.min.js">
+      
+    </script><script> $(function() { $('#post').froalaEditor() }); </script>
+    <script type="text/javascript">new Clipboard('.copytoclip');</script>
+<!--     <script>tinymce.init({ selector:'textarea' });</script> -->
   </div>
 </body>
 

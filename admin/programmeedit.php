@@ -30,7 +30,8 @@
 	echo $updateProgrammeById;
 } ?>
 <hr>
-
+	<span>** Insert img from  <a target="_blank" href="imglist.php">here</a></span>
+<hr>
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -48,7 +49,8 @@ if ($getProgrammeById) :
 				<div class="form-group row">
 				  <label class="col-2 col-form-label">Programme Desc</label>
 				  <div class="col-10">
-				    <input class="form-control" type="text" name="programmename" value="<?php echo $value['programmedescription'];?>">
+				  	<textarea id="post" name="programmedescription"><?php echo $value['programmedescription'];?></textarea>
+				    <!-- <input class="form-control" type="text" name="programmedescription" value=""> -->
 				  </div>
 				</div>
 				<div class="form-group row">
